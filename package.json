@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  },
+  "name": "my-shop-site",
+  "version": "1.0.0",
+  "description": "site must works",
+  "main": "app.js",
+  "scripts": {
+    "test": "node start",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "author": "NICK",
+  "license": "ISC"
+}
