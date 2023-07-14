@@ -11,6 +11,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   body { font-size: 62.5%; line-height: 1; font-family: Arial, Tahoma, Verdana, sans-serif; }
 
 
+  .main-header {
+    background: red;
+  }
 
   .header-logo-first {
     width: 130px;
@@ -35,7 +38,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     border: 1px solid black;
     color: white;
     font-size: 14px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin-left: 15px;
   }
   
@@ -44,7 +47,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     border: 2px solid transparent;
     color: white;
     font-size: 14px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin-left: 15px;
     padding: 8px;
   }
@@ -79,7 +82,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     border: 1px solid black;
     color: #44dbbd;
     font-size: 14px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin-left: 0px;
   }
 
