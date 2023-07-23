@@ -28,7 +28,7 @@ exports.postAddProduct = (req, res, next) => {
     .then((result) => {
       //console.log(result)
       console.log("Created Product");
-      res.redirect("/admin/products");
+      res.redirect("/admin/");
     })
     .catch((err) => {
       console.log(err);
@@ -42,7 +42,7 @@ exports.getEditProduct = (req, res, next) => {
   }
   const prodId = req.params.productId;
   Product.findById(prodId).then((product) => {
-    if (!product) {
+    if (!product) {  //req.params.productId = true; } else {
       return res.redirect("/");
     }
     res.render("admin/edit-product", {

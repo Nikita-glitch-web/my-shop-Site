@@ -11,6 +11,7 @@ app.set('views', 'views');
 
 
 const errorController = require('./controllers/error');
+const otherErrorContorller = require('./controllers/error-500')
 const User = require('./models/user');
 
 
@@ -43,7 +44,8 @@ const shopRoutes = require('./routes/shop');
 app.use('/admin', adminRoutes);
 //app.use(shopRoutes);
 
-//app.use(errorController.get404);
+app.use(errorController.get404);
+app.use(otherErrorContorller.get500);
 
 mongoConnect(() => {
  app.listen(3000);
